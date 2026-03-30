@@ -1,2 +1,25 @@
-<h1> Hi, ramesh Welcome to devops classes  </h1>
-<h1> This is Batch 6 </h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+</head>
+<body>
+
+<h2>Login Page</h2>
+
+<form action="/login.php" method="post">
+    <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+    </div>
+    <div>
+        <button type="submit">Sign in</button>
+    </div>
+</form>
+
+</body>
+</html>
