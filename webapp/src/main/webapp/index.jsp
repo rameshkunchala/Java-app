@@ -5,7 +5,7 @@
 </head>
 <body>
 
-<h2>Login Page</h2>
+<h2>Register Page</h2>
 
 <form action="/login.php" method="post">
     <div>
